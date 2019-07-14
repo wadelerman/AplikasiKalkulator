@@ -8,4 +8,5 @@
     <color name="btn">#00BCD4</color>
     <color name="btnred">#FF6666</color>
     <color name="shadow">#E0E0E0</color>
+    <color name="black">#000000</color>
 </resources>
