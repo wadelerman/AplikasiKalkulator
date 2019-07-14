@@ -27,9 +27,7 @@
         android:layout_marginRight="50dp"
         android:fontFamily="@font/segoeuilight"
         android:inputType="numberDecimal"
-        android:maxLength="5"
-        android:clickable="true"
-        android:focusableInTouchMode="true"/>
+        android:maxLength="5"/>
     <EditText
         android:id="@+id/angka2"
         android:layout_width="match_parent"
