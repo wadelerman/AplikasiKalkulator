@@ -20,7 +20,7 @@
         android:id="@+id/angka1"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/angka1"
+        android:hint="@string/inpangka1"
         android:layout_below="@id/title"
         android:layout_marginTop="50dp"
         android:layout_marginLeft="50dp"
@@ -29,9 +29,71 @@
         android:id="@+id/angka2"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="@string/angka2"
+        android:hint="@string/inpangka2"
         android:layout_below="@id/angka1"
         android:layout_marginTop="50dp"
         android:layout_marginRight="50dp"
         android:layout_marginLeft="50dp"/>
+
+    <Button
+        android:id="@+id/plusbtn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/angka2"
+        android:layout_alignStart="@+id/angka2"
+        android:layout_marginStart="0dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="35dp"
+        android:background="@color/btn"
+        android:text="+"
+        android:textColor="@color/white" />
+    <Button
+        android:id="@+id/minbtn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/angka2"
+        android:layout_marginTop="35dp"
+        android:text="-"
+        android:background="@color/btn"
+        android:layout_marginLeft="120dp"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/timesbtn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/angka2"
+        android:layout_alignEnd="@+id/angka2"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="70dp"
+        android:background="@color/btn"
+        android:text="x"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/dividebtn"
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/angka2"
+        android:layout_alignEnd="@+id/angka2"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/btn"
+        android:text="x"
+        android:textColor="@color/white" />
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/dividebtn"
+        android:layout_marginTop="35dp"
+        android:background="@color/btnred"
+        android:text="@string/clr"
+        android:textColor="@color/white"
+        android:layout_marginRight="50dp"
+        android:layout_marginLeft="50dp"
+        />
+
 </RelativeLayout>
