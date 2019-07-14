@@ -81,7 +81,7 @@
         android:layout_marginTop="35dp"
         android:layout_marginEnd="0dp"
         android:background="@color/btn"
-        android:text="x"
+        android:text=":"
         android:textColor="@color/white" />
 
     <Button
@@ -94,18 +94,22 @@
         android:text="@string/clr"
         android:textColor="@color/white"
         android:layout_marginRight="50dp"
-        android:layout_marginLeft="50dp"/>
+        android:layout_marginLeft="50dp"
+        android:fontFamily="@font/segoeuilight"/>
 
     <TextView
-        android:layout_centerInParent="true"
         android:id="@+id/textView"
-        android:layout_width="150dp"
         android:layout_height="70dp"
-        android:text="@string/hasil"
+        android:layout_width="match_parent"
         android:layout_below="@+id/clr"
+        android:layout_alignStart="@+id/minbtn"
+        android:layout_alignEnd="@+id/timesbtn"
+        android:layout_centerVertical="true"
         android:layout_marginTop="35dp"
         android:background="@color/shadow"
-        android:gravity="center"
-        />
+        android:fontFamily="@font/bebasregular"
+        android:gravity="center_horizontal"
+        android:paddingTop="10dp"
+        android:text="@string/hasil" />
 
 </RelativeLayout>
