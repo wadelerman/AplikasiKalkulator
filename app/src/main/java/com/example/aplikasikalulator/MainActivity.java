@@ -10,6 +10,8 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.text.DecimalFormat;
+
 public class MainActivity extends AppCompatActivity {
 
     EditText angka_pertama, angka_kedua;
