@@ -27,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-
+        //memanggil variabel dari id
         angka_pertama = (EditText) findViewById(R.id.angka1);
         angka_kedua = (EditText) findViewById(R.id.angka2);
         jumlah = (TextView) findViewById(R.id.jumlah);
